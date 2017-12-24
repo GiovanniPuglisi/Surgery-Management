@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp2.Staff_registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Staff_registration" Height="429" Width="397">
+    <Grid>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Register new emp"/><Run Text="loyee"/></TextBlock>
+        <TextBox x:Name="tb_phone" HorizontalAlignment="Left" Height="23" Margin="259,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_name" HorizontalAlignment="Left" Height="23" Margin="10,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_surname" HorizontalAlignment="Left" Height="23" Margin="10,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_dob" HorizontalAlignment="Left" Height="23" Margin="10,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_street" HorizontalAlignment="Left" Height="23" Margin="10,207,0,0" TextWrapping="Wrap" Text="(Street)" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_city" HorizontalAlignment="Left" Height="23" Margin="10,235,0,0" TextWrapping="Wrap" Text="(City)" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_postcode" HorizontalAlignment="Left" Height="23" Margin="10,263,0,0" TextWrapping="Wrap" Text="(Postcode)" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,32,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,138,0,0" TextWrapping="Wrap" Text="Date of birth" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,191,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="Surname" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="259,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Phone"/><Run Text=" number"/></TextBlock>
+        <TextBox x:Name="tb_email" HorizontalAlignment="Left" Height="23" Margin="259,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_role" HorizontalAlignment="Left" Height="23" Margin="259,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_username" HorizontalAlignment="Left" Height="23" Margin="259,207,0,0" TextWrapping="Wrap" Text="(Username)" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_password" HorizontalAlignment="Left" Height="23" Margin="259,235,0,0" TextWrapping="Wrap" Text="(Password)" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="259,85,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="259,138,0,0" TextWrapping="Wrap" Text="Role" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Margin="259,191,0,0" TextWrapping="Wrap" Text="Account details" VerticalAlignment="Top"/>
+        <Button x:Name="bt_register_staff" Content="Register" HorizontalAlignment="Left" Margin="259,310,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.96,-1" Click="bt_register_staff_Click"/>
+
+    </Grid>
+</Window>

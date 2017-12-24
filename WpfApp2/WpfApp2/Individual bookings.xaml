@@ -1,0 +1,34 @@
+﻿<Window x:Name="individual_booking" x:Class="WpfApp2.Individual_bookings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Individual Bookings" Height="350" Width="520" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="bt_cancel_booking" Content="Cancel Booking" HorizontalAlignment="Left" Margin="300,108,0,0" VerticalAlignment="Top" Width="179" Height="50" Cursor="Hand" Click="bt_cancel_booking_Click"/>
+        <Button x:Name="bt_save_changes" Content="Save Changes" HorizontalAlignment="Left" Margin="300,191,0,0" VerticalAlignment="Top" Width="179" Height="50" Click="bt_save_changes_Click"/>
+        <Label x:Name="booking_details_view" Content="Booking Details" HorizontalAlignment="Left" Margin="25,28,0,0" VerticalAlignment="Top" Height="29" Width="113" FontWeight="Bold"/>
+        <Label x:Name="lb_patient_id" Content="Patient ID:" HorizontalAlignment="Left" Margin="25,81,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_patient_name" Content="Name:" HorizontalAlignment="Left" Margin="44,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_date" Content="Date:" HorizontalAlignment="Left" Margin="51,126,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_time" Content="Time:" HorizontalAlignment="Left" Margin="50,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_doctor" Content="Doctor:" HorizontalAlignment="Left" Margin="39,172,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_room" Content="Room:" HorizontalAlignment="Left" Margin="45,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb_description" Content="Description:" HorizontalAlignment="Left" Margin="16,221,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_patientid" HorizontalAlignment="Left" Height="23" Margin="94,85,0,0" TextWrapping="Wrap" Text="Patient ID" VerticalAlignment="Top" Width="180" TextChanged="tb_patient_id_TextChanged">
+
+        </TextBox>
+        <TextBox x:Name="tb_name" HorizontalAlignment="Left" Height="23" Margin="94,108,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="180" TextChanged="tb_name_TextChanged">
+        </TextBox>
+        <TextBox x:Name="tb_date" HorizontalAlignment="Left" Height="23" Margin="94,131,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="tb_time" HorizontalAlignment="Left" Height="23" Margin="94,154,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="tb_doctor" HorizontalAlignment="Left" Height="23" Margin="94,177,0,0" TextWrapping="Wrap" Text="Doctor" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="tb_room" HorizontalAlignment="Left" Height="23" Margin="94,200,0,0" TextWrapping="Wrap" Text="Room" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="tb_description" HorizontalAlignment="Left" Height="55" Margin="94,221,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" Width="180"/>
+        <Label x:Name="lb_patient_id_Copy" Content="Booking ID" HorizontalAlignment="Left" Margin="25,62,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tb_bookingid" HorizontalAlignment="Left" Margin="94,69,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="180"/>
+
+    </Grid>
+</Window>

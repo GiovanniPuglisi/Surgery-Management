@@ -1,0 +1,16 @@
+﻿<Window x:Name="login_screen" x:Class="WpfApp2.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Login" Height="258.442" Width="363.733" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="login_ID" Content="Login ID:" HorizontalAlignment="Left" Margin="72,54,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <Label x:Name="password" Content="Password:" HorizontalAlignment="Left" Margin="61,102,0,0" VerticalAlignment="Top" Height="26" Width="68" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="149,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="149,110,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="bt_login" Content="Login" HorizontalAlignment="Left" Margin="149,160,0,0" VerticalAlignment="Top" Width="120" Height="21" Click="bt_login_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Name="individual_screen" x:Class="WpfApp2.individual_patient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Individual Patient" Height="350" Width="520" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="bt_patient_record" Content="Patient Details" HorizontalAlignment="Left" Margin="340,20,0,0" VerticalAlignment="Top" Width="110" Height="24" Click="bt_patient_record_Click"/>
+        <Label x:Name="booking" Content="Bookings" HorizontalAlignment="Left" Margin="28,68,0,0" VerticalAlignment="Top" Height="28"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="28,98,0,0" VerticalAlignment="Top" Width="422" Height="204"/>
+        <TextBlock x:Name="tb_name" HorizontalAlignment="Left" Margin="28,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" Text="Name" FontWeight="Bold"/>
+        <Button x:Name="bt_prescriptions" Content="Prescriptions" HorizontalAlignment="Left" Margin="28,20,0,0" VerticalAlignment="Top" Width="110" Height="24" Click="bt_prescriptions_Click"/>
+
+    </Grid>
+</Window>

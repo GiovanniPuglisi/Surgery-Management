@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp2.Prescriptions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Prescriptions" Height="429" Width="397">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Height="214" Width="369"/>
+        <TextBlock x:Name="tb_patient_name" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Patient name" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,68,0,0" TextWrapping="Wrap" Text="Active prescriptions" VerticalAlignment="Top"/>
+        <Button x:Name="bt_new_prescription" Content="Create prescription" HorizontalAlignment="Left" Margin="267,345,0,0" VerticalAlignment="Top" Width="112" Click="bt_new_prescription_Click"/>
+        <Button x:Name="bt_update_prescription" Content="Update prescription" HorizontalAlignment="Left" Margin="138,345,0,0" VerticalAlignment="Top" Width="112" Click="bt_update_prescription_Click"/>
+        <Button x:Name="bt_delete_prescription" Content="Delete prescription" HorizontalAlignment="Left" Margin="10,345,0,0" VerticalAlignment="Top" Width="112" Click="bt_delete_prescription_Click"/>
+
+    </Grid>
+</Window>
